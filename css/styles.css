@@ -1,0 +1,236 @@
+:root {
+  --main-color: #2196f3;
+  --secondary-color: white;
+  --third-color: #757575;
+  --fourth-color: #ffffff;
+  --fifth-color: #212121;
+  --sixth-color: #f5f4fa;
+  --seventh-color: #2f303a;
+  --eighth-color: #e5e5e5;
+  --nineth-color: #000000;
+  --tenth-color: black;
+}
+
+.mainelement {
+  font-family: "Roboto", sans-serif;
+  color: var(--fifth-color);
+  background-color: var(--sixth-color);
+  letter-spacing: 0.03em;
+}
+.backround {
+  background: var(--seventh-color);
+}
+
+.bigtext {
+  font-size: 44px;
+  color: var(--secondary-color);
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button-main {
+  background-color: var(--main-color);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border: var(--seventh-color);
+  cursor: pointer;
+  font-family: inherit;
+}
+.button-portfolio {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--eighth-color);
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.lorem {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.headtwo {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+.descriptionlorem {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--third-color);
+}
+
+.membersname {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.workofmembers {
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--third-color);
+}
+
+.button-portfolio:hover {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}
+
+.infolist {
+  text-decoration: none;
+  color: var(--fifth-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.colorgrey {
+  color: var(--third-color);
+}
+
+.navigationlist {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+}
+
+.navigationlist > .infolist {
+  color: var(--tenth-color);
+}
+.logo,
+.logo-footer {
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+}
+.logo {
+  color: var(--fifth-color);
+}
+.logo-footer {
+  color: var(--secondary-color);
+}
+
+.logo > .blue,
+.logo-footer > .blue {
+  color: var(--main-color);
+}
+
+.list {
+  list-style-type: none;
+}
+.contact {
+  text-decoration: none;
+  color: var(--third-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.contact:hover {
+  color: var(--main-color);
+}
+
+.imagesdescription {
+  color: var(--fifth-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.signdescription {
+  color: var(--third-color);
+
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.studioname {
+  color: var(--main-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.highlight {
+  color: var(--nineth-color);
+}
+.highlightwhite {
+  color: var(--fourth-color);
+}
+
+.topline {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.portoflio {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+}
+
+.hoverblue:hover,
+.hoverblue:focus,
+.hoverblue:active {
+  color: var(--main-color);
+}
+
+.buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.cityadress {
+  color: var(--fourth-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.nonetextstyle {
+  font-style: inherit;
+}
+.container {
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* .containter {
+  box-sizing: border-box;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+} */
+.logo-box {
+  display: flex;
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Dzięki temu mam w poziomie nazwy */
+/* .list li {
+  display: inline;
+} */
