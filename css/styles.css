@@ -89,6 +89,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  margin: 46px;
 }
 
 .colorgrey {
@@ -100,7 +101,6 @@
   font-size: 14px;
   line-height: 1.17;
   display: flex;
-  align-items: center;
 }
 
 .navigationlist > .infolist {
@@ -127,6 +127,7 @@
 
 .list {
   list-style-type: none;
+  display: flex;
 }
 .contact {
   text-decoration: none;
@@ -170,6 +171,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  display: flex;
 }
 
 .portoflio {
@@ -205,8 +207,17 @@
 .container {
   padding: 0 15px;
   width: 100%;
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
+}
+.headerstyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mailandtellist {
+  margin-left: 50px;
 }
 
 /* .containter {
@@ -217,9 +228,9 @@
   margin: 0 auto;
   display: flex;
 } */
-.logo-box {
+/* .logo-box {
   display: flex;
-}
+} */
 
 .hero {
   padding-top: 200px;
