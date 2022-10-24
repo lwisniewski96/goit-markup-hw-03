@@ -9,6 +9,8 @@
   --eighth-color: #e5e5e5;
   --nineth-color: #000000;
   --tenth-color: black;
+  --border-color: #eeeeee;
+  --headerborder-color: #ececec;
 }
 
 ul {
@@ -295,6 +297,7 @@ ul {
 
 .images-margin {
   margin-right: 30px;
+  border: 1px solid var(--border-color);
 }
 .thirdimages-margin {
   margin-right: 0;
@@ -303,6 +306,10 @@ ul {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.header-border {
+  border-bottom: 1px solid var(--headerborder-color);
 }
 
 /* Dzięki temu mam w poziomie nazwy */
