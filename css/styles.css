@@ -214,7 +214,7 @@ ul {
 .container {
   padding: 0 15px;
   width: 100%;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .headerstyle {
@@ -241,6 +241,9 @@ ul {
 .lorem-margin::last-child {
   margin-right: 0;
 }
+.align-member {
+  text-align: center;
+}
 
 /* .containter {
   box-sizing: border-box;
@@ -264,6 +267,42 @@ ul {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.picture-margin {
+  margin-right: 30px;
+}
+
+.picture-margin::last-child {
+  margin-right: 0;
+}
+.buttons-portfolio {
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.buttons-margin {
+  margin-right: 8px;
+}
+.buttons-margin: :last-child {
+  margin-right: 0;
+}
+.images-project {
+  flex-wrap: wrap;
+  padding-top: 34px;
+  padding-bottom: 94px;
+}
+
+.images-margin {
+  margin-right: 30px;
+}
+.thirdimages-margin {
+  margin-right: 0;
+}
+
+.padding-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Dzięki temu mam w poziomie nazwy */
