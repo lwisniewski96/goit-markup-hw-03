@@ -124,6 +124,22 @@ ul {
   text-decoration: none;
   font-weight: 700;
 }
+.padding-logo-footer {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.padding-adress-footer{
+  padding-top: 20px;
+  padding-bottom: 9px;
+}
+.padding-mail-footer{
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.padding-tel-footer{
+  padding-bottom: 9px;
+}
+
 .logo {
   color: var(--fifth-color);
 }
@@ -226,6 +242,8 @@ ul {
 }
 .logo-box {
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .headermargin {
@@ -286,7 +304,7 @@ ul {
 .buttons-margin {
   margin-right: 8px;
 }
-.buttons-margin: :last-child {
+.buttons-margin::last-child {
   margin-right: 0;
 }
 .images-project {
@@ -299,6 +317,7 @@ ul {
   margin-right: 30px;
   border: 1px solid var(--border-color);
 }
+
 .thirdimages-margin {
   margin-right: 0;
 }
