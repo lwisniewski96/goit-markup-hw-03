@@ -22,7 +22,7 @@ ul {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--fifth-color);
-  background-color: var(--eighth-color);
+  /* background-color: var(--eighth-color); */
   letter-spacing: 0.03em;
   font-size: 14px;
 }
@@ -342,7 +342,7 @@ body {
   padding-top: 34px;
   padding-bottom: 94px;
 }
-.project {
+.project-border {
   border: 1px solid var(--border-color);
 }
 
