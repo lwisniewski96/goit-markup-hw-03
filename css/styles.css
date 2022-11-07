@@ -22,7 +22,6 @@ ul {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--fifth-color);
-  /* background-color: var(--eighth-color); */
   letter-spacing: 0.03em;
   font-size: 14px;
 }
@@ -63,6 +62,8 @@ body {
   border: none;
   cursor: pointer;
   font-family: inherit;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
 
 .lorem {
@@ -330,6 +331,7 @@ body {
   justify-content: center;
   padding-top: 94px;
   padding-bottom: 50px;
+  display: flex;
 }
 .buttons-margin {
   margin-right: 8px;
@@ -344,6 +346,10 @@ body {
 }
 .project-border {
   border: 1px solid var(--border-color);
+}
+.project {
+  display: flex;
+  flex-direction: column;
 }
 
 .section {
