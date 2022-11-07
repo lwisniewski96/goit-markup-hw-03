@@ -25,8 +25,10 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
 }
-.backround {
+
+.footer {
   background: var(--seventh-color);
+  padding: 60px 0px;
 }
 
 .bigtext {
@@ -71,13 +73,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 .headtwo {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
   text-align: center;
-  margin: 0;
   margin-bottom: 50px;
 }
 .descriptionlorem {
@@ -135,11 +137,9 @@ body {
   font-weight: 700;
 }
 .padding-logo-footer {
-  padding-top: 60px;
   padding-bottom: 20px;
 }
 .padding-adress-footer {
-  padding-top: 20px;
   padding-bottom: 9px;
 }
 .padding-mail-footer {
@@ -164,9 +164,34 @@ body {
 
 .list {
   display: flex;
-  margin-left: auto;
   gap: 30px;
 }
+.header-nav-list {
+  display: flex;
+  gap: 36px;
+}
+
+.header-contact-list {
+  display: flex;
+  gap: 30px;
+}
+
+.lorems-list {
+  display: flex;
+  gap: 30px;
+}
+
+.pictures-list {
+  display: flex;
+  gap: 30px;
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
 .contact {
   text-decoration: none;
   color: var(--third-color);
@@ -183,6 +208,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  padding-bottom: 4px;
 }
 .signdescription {
   color: var(--third-color);
@@ -279,19 +305,8 @@ body {
 }
 .align-member {
   text-align: center;
+  padding: 30px 0px;
 }
-
-/* .containter {
-  box-sizing: border-box;
-  padding: 0 15px;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-} */
-/* .logo-box {
-  display: flex;
-} */
 
 .hero {
   padding-top: 200px;
@@ -303,8 +318,6 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-
-  padding-bottom: 30px;
 }
 
 .hero-inner {
@@ -314,19 +327,6 @@ body {
   text-align: center;
 }
 
-/* .picture-margin {
-  margin-right: 30px;
-} */
-
-/* .picture-margin::last-child {
-  margin-right: 0;
-} */
-.picture-headtwo-margin {
-  margin-right: 30px;
-}
-.picture-headtwo-margin:last-child {
-  margin-right: 0;
-}
 .buttons-portfolio {
   justify-content: center;
   padding-bottom: 50px;
@@ -338,11 +338,10 @@ body {
 .buttons-margin::last-child {
   margin-right: 0;
 }
-.images-project {
-  flex-wrap: wrap;
-}
+
 .project-border {
   border: 1px solid var(--border-color);
+  padding: 20px 24px;
 }
 .project {
   display: flex;
@@ -357,11 +356,6 @@ body {
 .header-border {
   border-bottom: 1px solid var(--headerborder-color);
 }
-
-/* Dzięki temu mam w poziomie nazwy */
-/* .list li {
-  display: inline;
-} */
 
 .team {
   background: var(--sixth-color);
