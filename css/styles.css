@@ -340,7 +340,6 @@ body {
 }
 .images-project {
   flex-wrap: wrap;
-  
 }
 .project-border {
   border: 1px solid var(--border-color);
