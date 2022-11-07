@@ -329,7 +329,6 @@ body {
 }
 .buttons-portfolio {
   justify-content: center;
-  padding-top: 94px;
   padding-bottom: 50px;
   display: flex;
 }
@@ -341,8 +340,7 @@ body {
 }
 .images-project {
   flex-wrap: wrap;
-  padding-top: 34px;
-  padding-bottom: 94px;
+  
 }
 .project-border {
   border: 1px solid var(--border-color);
